@@ -1,0 +1,44 @@
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color:  rgb(233, 232, 250);
+
+  margin: 0%;
+
+}
+
+.home-about img{
+   
+    margin: auto;
+text-align: center;
+align-items: center;
+
+    overflow-clip-margin: content-box;
+    overflow: clip;
+
+ 
+}.home-about .content{
+    flex: 1 1 41rem;
+    padding: 2rem;
+  background-color: rgba(203, 203, 255, 0.658);
+
+
+}
+.home-about .content h2{
+    font-size: 5rem;
+    color: #000000;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.home-about .content p{
+    font-size: 1.4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    line-height: 2;
+    color: #06005a;
+    font-weight: bolder;
+
+}
